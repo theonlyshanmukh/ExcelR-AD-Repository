@@ -1,5 +1,6 @@
-# Repository
-## This is a demo repository for my ExcelR AD classes 
+#  <u> ExcelR-AD-Repository </u>
+## This is a demo repository for my ExcelR-AD classes.
+## Daily Classes Progress.[.1]
 
 ---
 
@@ -18,7 +19,7 @@
 
 ---
 
-## Daily Classes Progress
+## [.1]: Daily Classes Progress
 
 - **Day 1**: ✅ Task Completed  
 - **Day 2**: ✅ Task Completed  
