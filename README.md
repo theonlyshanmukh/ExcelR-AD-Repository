@@ -1,5 +1,8 @@
 # <u>ExcelR-AD-Repository</u>
-## This is a demo repository for my ExcelR-AD classes.
+## This repository serves as a dedicated log for my progress throughout the **ExcelR-AD** classes at my university.
+
+This repository is designed to track and update my learning journey, documenting the key takeaways, tasks, and concepts covered during each day of my **ExcelR-AD** classes. It serves as a comprehensive record of the topics I am mastering, the practical applications I am exploring, and the skills I am developing as part of my academic curriculum. This repository also provides insight into the value and benefits I am gaining from these classes, offering a transparent view of my progress.
+
 ## [Daily Classes Progress](#daily-classes-progress)
 
 ---
