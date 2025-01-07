@@ -1,5 +1,5 @@
 # Repository
-## This is a demo repository for my AD classes 
+## This is a demo repository for my ExcelR AD classes 
 
 ---
 
@@ -7,14 +7,14 @@
 > Open in GitHub Codespaces or modify the URL to use `github.dev` instead of `github.com`.  
 > For example: Replace `https://github.com/Repository` with `https://github.dev/Repository`.
 
-> [!NOTE]
-> Files are updated daily to ensure the latest changes are reflected.
+> [!IMPORTANT]
+> Always review the documentation thoroughly and ensure you read the license agreement.
 
 > [!WARNING]
 > You are free to copy the code at your own risk.
 
-> [!IMPORTANT]
-> Always review the documentation thoroughly and ensure you read the license agreement.
+> [!NOTE]
+> Files are updated daily to ensure the latest changes are reflected.
 
 ---
 
