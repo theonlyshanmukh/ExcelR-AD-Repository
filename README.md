@@ -1,5 +1,7 @@
 # Repository
-# This is a repository for my AD classes 
+# This is a demo repository for my AD classes 
+
+---
 
 > [!TIP]
 > Open in GitHub Codespaces or modify the URL to use `github.dev` instead of `github.com`.  
@@ -9,16 +11,19 @@
 > Files are updated daily to ensure the latest changes are reflected.
 
 > [!WARNING]
-> You are free to copy the code on your own risk.
+> You are free to copy the code at your own risk.
 
 > [!IMPORTANT]
-> Always review the documentation thoroughly and ensure to read the license agreement.
+> Always review the documentation thoroughly and ensure you read the license agreement.
 
 ---
 
-##  <i> Day - 1 Classes </i>  - [x] Completed Task
-##  <i> Day - 2 Classes </i>  - [x] Completed Task
-##  <i> Day - 3 Classes </i>  - [x] Completed Task
-##  <i> Day - 4 Classes </i>  - [x] Completed Task
+## Daily Classes Progress
+
+- **Day 1**: ✅ Task Completed  
+- **Day 2**: ✅ Task Completed  
+- **Day 3**: ✅ Task Completed  
+- **Day 4**: ✅ Task Completed  
 
 ---
+
