@@ -28,5 +28,6 @@ This repository is designed to track and update the learning journey, documentin
 - **Day 2**: ✅ Task Completed  
 - **Day 3**: ✅ Task Completed  
 - **Day 4**: ✅ Task Completed  
+- **Day 5**: ✅ Task Completed  
 
 ---
