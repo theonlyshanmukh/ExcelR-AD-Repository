@@ -24,13 +24,17 @@ This repository is designed to track and update the learning journey, documentin
 
 ## <a id="daily-classes-progress"></a>Progress
 
-- **Day 1**: ✅ Task Completed  
-- **Day 2**: ✅ Task Completed  
-- **Day 3**: ✅ Task Completed  
-- **Day 4**: ✅ Task Completed  
-- **Day 5**: ✅ Task Completed  
-- **Day 6**: ✅ Task Completed  
-- **Day 7**: ✅ Task Completed  
-- **Day 8**: ✅ Task Completed  
+- **Day 01**: ✅ Task Completed  
+- **Day 02**: ✅ Task Completed  
+- **Day 03**: ✅ Task Completed  
+- **Day 04**: ✅ Task Completed  
+- **Day 05**: ✅ Task Completed  
+- **Day 06**: ✅ Task Completed  
+- **Day 07**: ✅ Task Completed  
+- **Day 08**: ✅ Task Completed  
+- **Day 09**: ✅ Task Completed  
+- **Day 10**: ✅ Task Completed  
+- **Day 11**: ✅ Task Completed  
+- **Day 12**: ✅ Task Completed  
 
 ---
