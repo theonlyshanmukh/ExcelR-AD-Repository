@@ -36,5 +36,6 @@ This repository is designed to track and update the learning journey, documentin
 - **Day 10**: ✅ Task Completed  
 - **Day 11**: ✅ Task Completed  
 - **Day 12**: ✅ Task Completed  
+- **Day 13**: ✅ Task Completed
 
 ---
