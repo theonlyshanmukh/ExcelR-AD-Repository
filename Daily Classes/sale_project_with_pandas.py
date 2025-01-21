@@ -27,11 +27,19 @@ print("Sales dataframe", sales_df)
 print("customers_df", customers_df)
 
 merged_df = pd.merge(sales_df, customers_df, on='CustomerID', how='inner')
-print("\nMerged DataFrame:")
+print("\nMerged DataFrame inner:")
 print(merged_df)
 
-merged_df = pd.merge(sales_df, customers_df, on='CustomerID', how='inner')
-print("\nMerged DataFrame:")
+merged_df = pd.merge(sales_df, customers_df, on='CustomerID', how='outer')
+print("\nMerged DataFrame outer:")
+print(merged_df)
+
+merged_df = pd.merge(sales_df, customers_df, on='CustomerID', how='left')
+print("\nMerged DataFrame left:")
+print(merged_df)
+
+merged_df = pd.merge(sales_df, customers_df, on='CustomerID', how='right')
+print("\nMerged DataFrame right:")
 print(merged_df)
 
 print("\nAccess data using `loc` (row 1):")
@@ -52,4 +60,3 @@ print(merged_df)
 mean_sales = merged_df.groupby('CustomerName')['Amount'].mean()
 print("\nMean sales per customer:")
 print(mean_sales)
-
