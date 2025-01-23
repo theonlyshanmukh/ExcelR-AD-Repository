@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+from sklearn.impute import SimpleImputer
+
 # Create sample dataset (House Price Dataset with missing values)
 data = {
     'square_feet_area': [8500, 9600, np.nan, 11250, np.nan, 9550, 14260, np.nan, 13830, 11500],  # Numeric
@@ -11,13 +13,22 @@ data = {
 
 # Create DataFrame
 df = pd.DataFrame(data)
-
 # Print original DataFrame
 print("Original DataFrame:")
 print(df)
 print(df.isnull().sum())
-# Replacing missing values with the mean for numeric columns
-df['square_feet_area'].fillna(df['square_feet_area'].mean(), inplace=True)
-df['Year_built'].fillna(df['Year_built'].mean(), inplace=True)
-df['over_all_condition'].fillna(df['over_all_condition'].mean(), inplace=True)
-df['ready_to_move'].fillna(df['ready_to_move'].mode()[0], inplace=True)
+
+# Create an Imputer for numeric columns to replace NaN with the mean
+numeric_imputer = SimpleImputer(strategy="mean")
+#Apply the imputer on the numeric columns
+df[['square_feet_area', 'Year_built', 'over_all_condition']] = numeric_imputer.fit_transform(df[['square_feet_area', 'Year_built', 'over_all_condition']])
+
+
+#Create an Imputer for categorical columns to replace NaN wth mode
+categorical_imputer = SimpleImputer(strategy='most_frequent') #use most_frequent
+#Apply the imputer on the categorical column
+df[['ready_to_move']] = categorical_imputer.fit_transform(df[['ready_to_move']])
+
+# Print DataFrame after imputation
+print("\nDataFrame after replacing missing values with SimpleImputer (mean for numeric, mode for categorical):")
+df
